@@ -1,0 +1,96 @@
+@charset "UTF-8"; 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height:100%;
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    height:200px;
+    padding:20px 0;
+}
+.logo{
+    width: 50%;
+}
+
+.home{
+    text-align: right;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.home a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    background-color: #017143;
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    margin: 20px 0;
+    width: 25px;
+}
+
+.extras>img{
+    position: relative;
+    width: 400px;
+    margin: 20px 30px;    
+}
+.texto-sobre{
+    margin-top: 80px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    max-width: 800px;
+    font-weight: bolder;
+    padding: 20px 0;
+}
+
+button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    padding: 8px;
+    border-radius: 14px;
+    cursor: pointer;
+}
